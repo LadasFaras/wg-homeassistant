@@ -1,5 +1,6 @@
 # Wunderground PWS (dashboard) – Home Assistant integrace
-n![Wunderground PWS](images/banner.png)
+
+![Wunderground PWS](images/banner.png)
 
 [![Přidat do HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=LadasFaras&repository=wg-homeassistant&category=integration)
 [![Přidat stanici](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=wunderground_pws)
