@@ -1,0 +1,47 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Wunderground stanice",
+        "description": "Vlož URL dashboardu stanice (např. https://www.wunderground.com/dashboard/pws/IOBORA10) nebo jen ID stanice.",
+        "data": {
+          "url": "URL nebo ID stanice",
+          "name": "Název (volitelné)",
+          "scan_interval": "Interval aktualizace (minuty)"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Nepodařilo se z URL zjistit ID stanice.",
+      "cannot_connect": "Nepodařilo se stáhnout stránku Wunderground.",
+      "no_data": "Na stránce nejsou data stanice (špatné ID nebo se změnil layout)."
+    },
+    "abort": {
+      "already_configured": "Tato stanice je už přidaná."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Nastavení",
+        "data": { "scan_interval": "Interval aktualizace (minuty)" }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "temperature": { "name": "Teplota" },
+      "feels_like": { "name": "Pocitová teplota" },
+      "dew_point": { "name": "Rosný bod" },
+      "humidity": { "name": "Vlhkost" },
+      "wind_speed": { "name": "Rychlost větru" },
+      "wind_gust": { "name": "Nárazy větru" },
+      "wind_direction": { "name": "Směr větru" },
+      "pressure": { "name": "Tlak" },
+      "precip_rate": { "name": "Intenzita srážek" },
+      "precip_total": { "name": "Denní srážky" },
+      "uv_index": { "name": "UV index" },
+      "solar_radiation": { "name": "Sluneční záření" }
+    }
+  }
+}

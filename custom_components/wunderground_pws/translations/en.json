@@ -1,0 +1,47 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Wunderground station",
+        "description": "Paste the station dashboard URL (e.g. https://www.wunderground.com/dashboard/pws/IOBORA10) or just the station ID.",
+        "data": {
+          "url": "Station URL or ID",
+          "name": "Name (optional)",
+          "scan_interval": "Update interval (minutes)"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Could not find a station ID in the URL.",
+      "cannot_connect": "Could not download the Wunderground page.",
+      "no_data": "No station data on the page (wrong ID or the page layout changed)."
+    },
+    "abort": {
+      "already_configured": "This station is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "data": { "scan_interval": "Update interval (minutes)" }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "temperature": { "name": "Temperature" },
+      "feels_like": { "name": "Feels like" },
+      "dew_point": { "name": "Dew point" },
+      "humidity": { "name": "Humidity" },
+      "wind_speed": { "name": "Wind speed" },
+      "wind_gust": { "name": "Wind gust" },
+      "wind_direction": { "name": "Wind direction" },
+      "pressure": { "name": "Pressure" },
+      "precip_rate": { "name": "Precipitation rate" },
+      "precip_total": { "name": "Precipitation today" },
+      "uv_index": { "name": "UV index" },
+      "solar_radiation": { "name": "Solar radiation" }
+    }
+  }
+}
