@@ -1,5 +1,9 @@
 # Wunderground PWS (dashboard) – Home Assistant integrace
 
+[![Přidat do HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=LadasFaras&repository=wg-homeassistant&category=integration)
+[![Přidat stanici](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=wunderground_pws)
+
+
 Vložíš URL stanice (`https://www.wunderground.com/dashboard/pws/IOBORA10`) nebo jen ID, nastavíš
 interval a dostaneš zařízení se senzory: teplota, pocitová teplota, rosný bod, vlhkost, vítr,
 nárazy, směr větru, tlak, intenzita a denní úhrn srážek, UV, sluneční záření.
