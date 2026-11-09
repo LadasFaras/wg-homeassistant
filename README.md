@@ -16,3 +16,6 @@ Jednotky se čtou ze stránky a HA je převede podle tvého nastavení jednotek.
 ## Poznámky
 - Výchozí interval je 5 minut (min. 1). Wunderground stanice se většinou obnovují po pár minutách, častější dotazy nemají smysl.
 - Integrace čte HTML stránky; pokud Wunderground změní layout, parser (`parser.py`) je třeba upravit.
+
+## Instalace přes HACS
+HACS → Integrace → menu (⋮) → Vlastní repozitáře → URL `https://github.com/LadasFaras/wg-homeassistant`, kategorie **Integration** → stáhnout → restart HA.
